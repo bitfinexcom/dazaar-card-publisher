@@ -1,0 +1,25 @@
+{
+  "name": "@bitfinex/dazaar-card-publisher",
+  "version": "1.0.0",
+  "description": "A stream of dazaar cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/dazaar-card-publisher.git"
+  },
+  "author": "Robert <robert@bitfinex.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@bitfinex/create-free-dazaar-core": "git+https://github.com/bitfinexcom/create-free-dazaar-core.git"
+  },
+  "devDependencies": {
+    "dazaar": "^1.4.0",
+    "hyperbee": "^1.0.1",
+    "mocha": "^8.2.1",
+    "rimraf": "^3.0.2",
+    "standard": "^16.0.3"
+  }
+}
